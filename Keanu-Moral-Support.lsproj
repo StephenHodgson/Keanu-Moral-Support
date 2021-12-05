@@ -3,7 +3,7 @@
     "document_id": "StKfNRZMzz2vuG5eZRMd",
     "original_document_id": "kOd4YidLzIhp2wS8ia29",
     "version": "28",
-    "lastChanged": "1638664732020",
+    "lastChanged": "1638670163556",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -798,6 +798,9 @@
                         "elephant_med_01_defaultMat1_normal"
                     ],
                     [
+                        "KeanuTalk"
+                    ],
+                    [
                         "Red_Panda_FBX [REMOVE_ME]"
                     ],
                     [
@@ -1220,9 +1223,6 @@
                         "Textures"
                     ],
                     [
-                        "WorldObjectController"
-                    ],
-                    [
                         "WorldObjectController",
                         "Materials"
                     ],
@@ -1244,10 +1244,6 @@
                         "WorldObjectController",
                         "Meshes",
                         "touch_collision_cube"
-                    ],
-                    [
-                        "WorldObjectController",
-                        "Scripts"
                     ],
                     [
                         "WorldObjectController",
@@ -1576,13 +1572,15 @@
             "selectionSetList": ""
         },
         "MetaInfoUIComponent": {
+            "icon_hash": "e07462fd6f50e8198cc61aeff204fc8f",
+            "icon_path": "icon.png",
             "hints": [
                 "lens_hint_tap"
             ],
-            "lens": "Animated Object",
+            "lens": "Tak to Keanu",
             "applicability": "2",
             "lens_descriptors": "",
-            "HermosaUseAllowed": "false"
+            "HermosaUseAllowed": "true"
         },
         "PreviewUiComponent": {
             "preview_descriptor": {
@@ -3998,6 +3996,14 @@
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
+                },
+                {
+                    "resId": "485",
+                    "uid": "1638664822027449:410964",
+                    "name": "Files\/File180.js",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
                 }
             ],
             "MaterialUpdateManager": {
@@ -4481,6 +4487,10 @@
                 {
                     "k": "179",
                     "v": "Files\/File179.mp3"
+                },
+                {
+                    "k": "180",
+                    "v": "Files\/File180.js"
                 }
             ]
         },
@@ -4688,6 +4698,10 @@
                     {
                         "k": "26527",
                         "v": "youre_breathtaking.mp3"
+                    },
+                    {
+                        "k": "26528",
+                        "v": "KeanuTalk.js"
                     }
                 ],
                 "hashes": [
@@ -4889,7 +4903,7 @@
                     },
                     {
                         "k": "1321",
-                        "v": "bf9630042378997774933514cdce10ee"
+                        "v": "f72474b28e3c4f8a2a282ed38fb7decf"
                     },
                     {
                         "k": "1327",
@@ -4953,7 +4967,7 @@
                     },
                     {
                         "k": "10959",
-                        "v": "efc5bfb8282b433aca30060bb63c49c3"
+                        "v": "4fbf062392c14937501fb9603ce29374"
                     },
                     {
                         "k": "10960",
@@ -4981,7 +4995,7 @@
                     },
                     {
                         "k": "26522",
-                        "v": "30de08b9616ce61ae639b7e15810830e"
+                        "v": "361daba2943c9907b941de9563c517d7"
                     },
                     {
                         "k": "26523",
@@ -4998,14 +5012,18 @@
                     {
                         "k": "26527",
                         "v": "ace322bdd8998198c4499a4064456d13"
+                    },
+                    {
+                        "k": "26528",
+                        "v": "5650fd6a1548d77e792f249708d3451f"
                     }
                 ],
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2021-12-04T16:20:55",
+                        "lastModified": "2021-12-04T18:09:16",
                         "name": "Public",
-                        "hash": "5df776647f017c47c9f00cae78e5d3c5",
+                        "hash": "b35f5d3dc197f3247ef2ee29437edc8f",
                         "children": [
                             {
                                 "isFolder": "true",
@@ -5151,6 +5169,13 @@
                                 "lastModified": "2021-12-04T16:15:45",
                                 "name": "folder.lock",
                                 "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                "children": ""
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2021-12-04T18:09:16",
+                                "name": "KeanuTalk.js",
+                                "hash": "5650fd6a1548d77e792f249708d3451f",
                                 "children": ""
                             },
                             {
@@ -5368,7 +5393,7 @@
                                 "isFolder": "true",
                                 "lastModified": "2021-12-04T16:19:54",
                                 "name": "WorldObjectController",
-                                "hash": "7512b0eded7f651ffc7e5224f5b93642",
+                                "hash": "01b13feea533f589e10d3c5e715b50f2",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -5379,9 +5404,9 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2021-12-04T16:35:49",
+                                        "lastModified": "2021-12-04T16:38:50",
                                         "name": "Materials",
-                                        "hash": "05c3b37299cf41807106994dc1e12a0a",
+                                        "hash": "28a910faf50210aab4269836872a5885",
                                         "children": [
                                             {
                                                 "isFolder": "false",
@@ -5392,23 +5417,23 @@
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2021-12-04T16:35:49",
+                                                "lastModified": "2021-12-04T16:38:50",
                                                 "name": "graph_matte_shadow.lsmat",
-                                                "hash": "bd7f98cf67d096c0ea770f85947c5a4d",
+                                                "hash": "efc5bfb8282b433aca30060bb63c49c3",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2021-12-04T16:35:49",
+                                                "lastModified": "2021-12-04T16:38:50",
                                                 "name": "ground_grid.lsmat",
-                                                "hash": "8cd814bba2a579a252c3618d6b81e97f",
+                                                "hash": "bf9630042378997774933514cdce10ee",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2021-12-04T16:35:49",
+                                                "lastModified": "2021-12-04T16:38:50",
                                                 "name": "touch_collision.lsmat",
-                                                "hash": "907e732ba35371573cdf4e25d5b3cff8",
+                                                "hash": "30de08b9616ce61ae639b7e15810830e",
                                                 "children": ""
                                             }
                                         ]
@@ -10140,12 +10165,30 @@
                         "publicId": "26527",
                         "source": "D:\/Dev\/Keanu-Moral-Support\/Public\/youre_breathtaking.mp3",
                         "additional": ""
+                    },
+                    {
+                        "name": "KeanuTalk",
+                        "type": "4",
+                        "subtype": "0",
+                        "resourceId": "485",
+                        "dependency": "0",
+                        "hidden": "false",
+                        "uid": "1638664822027449:410964",
+                        "fileId": "180",
+                        "originalId": "18446744073709551615",
+                        "publicId": "26528",
+                        "source": "C:\/Users\/steph\/AppData\/Local\/Temp\/Lens Studio-dKfHlu\/\/system\/\/emergencyFiles\/emergencyJs.js",
+                        "additional": ""
                     }
                 ]
             }
         },
         "InspectorController": {
-            "selection": ""
+            "selection": {
+                "objects": [
+                    "1618933268811607:225344"
+                ]
+            }
         },
         "EffectsController": {
             "1": "",
