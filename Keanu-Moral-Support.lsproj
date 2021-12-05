@@ -3,7 +3,7 @@
     "document_id": "scIKda0hCFQq9sWHhtBF",
     "original_document_id": "scIKda0hCFQq9sWHhtBF",
     "version": "28",
-    "lastChanged": "1638661399385",
+    "lastChanged": "1638662654460",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -32,15 +32,15 @@
             "collapsedList": [
                 [
                     [
-                        "Echopark"
-                    ],
-                    [
                         "Echopark",
                         "Diff"
                     ],
                     [
                         "Echopark",
                         "Specular"
+                    ],
+                    [
+                        "youre_breathtaking"
                     ]
                 ]
             ]
@@ -146,6 +146,14 @@
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
+                },
+                {
+                    "resId": "14",
+                    "uid": "1638662255680406:24101",
+                    "name": "Files\/File11.mp3",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
                 }
             ],
             "MaterialUpdateManager": {
@@ -213,6 +221,10 @@
                 {
                     "k": "7",
                     "v": "Files\/File7.hdr"
+                },
+                {
+                    "k": "11",
+                    "v": "Files\/File11.mp3"
                 }
             ]
         },
@@ -228,6 +240,10 @@
                     {
                         "k": "967",
                         "v": "Echopark.hdr"
+                    },
+                    {
+                        "k": "969",
+                        "v": "youre_breathtaking.mp3"
                     }
                 ],
                 "hashes": [
@@ -242,27 +258,46 @@
                     {
                         "k": "967",
                         "v": "0cf0e87a54f33218fcf92a12d7f0ede2"
+                    },
+                    {
+                        "k": "968",
+                        "v": "7989d678b2798c9a6c13a860fe03d4e1"
+                    },
+                    {
+                        "k": "969",
+                        "v": "ace322bdd8998198c4499a4064456d13"
+                    },
+                    {
+                        "k": "970",
+                        "v": "5dae8e7b54e6621f5a0c6c974584c478"
                     }
                 ],
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2020-04-30T18:25:18",
+                        "lastModified": "2021-12-04T16:04:10",
                         "name": "Public",
-                        "hash": "7305afc99178fbb8f0912889f41c0cab",
+                        "hash": "b105c0a8f87436a2ddf4a7041c16f2e1",
                         "children": [
                             {
                                 "isFolder": "false",
-                                "lastModified": "2020-04-28T12:55:20",
+                                "lastModified": "2021-11-15T17:40:38",
                                 "name": "Echopark.hdr",
                                 "hash": "0cf0e87a54f33218fcf92a12d7f0ede2",
                                 "children": ""
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2020-04-30T18:24:58",
+                                "lastModified": "2021-11-15T17:40:38",
                                 "name": "folder.lock",
                                 "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                "children": ""
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2021-12-04T15:55:46",
+                                "name": "youre_breathtaking.mp3",
+                                "hash": "ace322bdd8998198c4499a4064456d13",
                                 "children": ""
                             }
                         ]
@@ -355,6 +390,20 @@
                                 "additional": ""
                             }
                         ]
+                    },
+                    {
+                        "name": "youre_breathtaking",
+                        "type": "5",
+                        "subtype": "0",
+                        "resourceId": "14",
+                        "dependency": "0",
+                        "hidden": "false",
+                        "uid": "1638662255680406:24101",
+                        "fileId": "11",
+                        "originalId": "18446744073709551615",
+                        "publicId": "969",
+                        "source": "D:\/Dev\/Keanu-Moral-Support\/youre_breathtaking.mp3",
+                        "additional": ""
                     }
                 ]
             }
